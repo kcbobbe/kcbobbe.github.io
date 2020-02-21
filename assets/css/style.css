@@ -9,5 +9,27 @@ main {
 }
 
 .parallax-container {
-  height: 100px;
+  height: 300px!important;
+}
+
+nav {
+  background-color: #222222!important;
+}
+
+footer {
+  background-color: #222222!important;
+}
+
+/* fix the way the color hierarchy works */
+a {
+  color: #5D6D7E!important;
+}
+
+nav a {
+  color: #AED6F1!important;
+}
+
+.brand-logo {
+  margin-left: 1rem;
+  color: #EBF5FB!important;
 }

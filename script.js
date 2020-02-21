@@ -3,6 +3,9 @@ document.addEventListener('DOMContentLoaded', function() {
   var elems = document.querySelectorAll('.parallax');
   var instances = M.Parallax.init(elems);
 
+  var boxElems = document.querySelectorAll('.materialboxed');
+  var instances = M.Materialbox.init(boxElems);
+
   var tabElems = document.querySelectorAll('.tabs')
   var instances = M.Tabs.init(tabElems);
 
