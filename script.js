@@ -13,7 +13,12 @@ document.addEventListener('DOMContentLoaded', function() {
   // var instance = M.Tabs.getInstance(tabElems);
 
 
+$(".contactButton").on('click', function(e){
+  $("#moreContact").css('display','');
+})
 
-
+// $(".contactButton").on('click', function(e){
+//   $("#moreContact").css('display','')
+// })
 
 })

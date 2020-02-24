@@ -8,8 +8,9 @@ main {
   flex: 1 0 auto;
 }
 
-.parallax-container {
+.hero-container {
   height: 300px!important;
+  background-image: linear-gradient(to top, #a18cd1 0%, #fbc2eb 100%)!important;
 }
 
 nav {
@@ -27,9 +28,45 @@ a {
 
 nav a {
   color: #AED6F1!important;
+  font-size:larger!important;
+}
+
+footer a{
+  color: #AED6F1!important;
+  font-size:larger!important;
 }
 
 .brand-logo {
   margin-left: 1rem;
   color: #EBF5FB!important;
 }
+
+.chip-holder{
+  margin-top: 1rem;
+}
+
+body {
+  /* background-image: url("https://assets.website-files.com/5bfd1275cc56e15ce750b18e/5c289afb9a15757152893aa7_70.%20Honeydew.jpg"); */
+  /* background-image: linear-gradient(0deg, #a1c4fd 0%, #c2e9fb 100%); */
+  background-image: linear-gradient(180deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+.front-page {
+  font-size:larger;
+  background-color:white;
+  padding:1em 1em 0em 1em;
+  margin: 2em auto!important;
+  border-radius: 3px;
+  max-width:1200px!important;
+}
+
+.brand-logo {
+  font-size:large!important;
+}
+
+.katiepic {
+  max-height:150px;
+  border-radius:3px;
+  margin-left:0;
+}
+
