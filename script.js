@@ -17,6 +17,16 @@ $(".contactButton").on('click', function(e){
   $("#moreContact").css('display','');
 })
 
+$(".mainButton").on('click', function(e){
+  $("#projectsView").css('display','none');
+  $("#mainView").css('display','');
+})
+
+$(".projectsButton").on('click', function(e){
+  // $("#mainView").css('display','none');
+  $("#projectsView").css('display','');
+})
+
 // $(".contactButton").on('click', function(e){
 //   $("#moreContact").css('display','')
 // })
