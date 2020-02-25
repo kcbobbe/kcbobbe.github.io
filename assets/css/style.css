@@ -23,7 +23,7 @@ footer {
 
 /* fix the way the color hierarchy works */
 a {
-  color: #5D6D7E!important;
+  color: #222222!important;
 }
 
 nav a {
@@ -78,9 +78,10 @@ body {
   /* color: #222222!important; */
 }
 
-.contact-bar i{
+/* .contact-bar i{
   margin-right: .5em;
-}
+} */
+
 .contact-button:hover{
   cursor: pointer;
 }

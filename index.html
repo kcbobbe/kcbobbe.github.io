@@ -19,6 +19,7 @@
       <nav>
         <div class="nav-wrapper">
           <a href="index.html" class="brand-logo">Katie Bobbe</a>
+          <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
           <ul id="nav-mobile" class="right hide-on-med-and-down">
             <li><a role="button" class="contact-nav">Contact</a></li>
             <li><a href="projects.html">Projects</a></li>
@@ -28,6 +29,28 @@
           </ul>
         </div>
       </nav>
+
+      <ul class="sidenav" id="mobile-demo">
+        <li><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
+        <li><a href="https://github.com/kcbobbe"><i class="fab fa-github"></i>GitHub</a></li>
+        <li><a href="https://www.linkedin.com/in/kcbobbe/"><i class="fab fa-linkedin"></i>LinkedIn</a></li>  
+        <li style="font-size:large"><a href="projects.html">Projects</a></li>
+        <li class="projectLink">
+          <a href="projects.html#project-swipe-1"><i class="fas fa-music"></i>BandiFi</a>
+        </li>
+        <li class="projectLink">
+          <a href="projects.html#project-swipe-2"><i class="fas fa-cloud"></i>Weather Dashboard</a>
+        </li> 
+        <li class="projectLink">
+          <a href="projects.html#project-swipe-3"><i class="fas fa-map-signs"></i>Q-seum</a>
+        </li>
+        <li class="projectLink">
+          <a href="projects.html#project-swipe-4"><i class="fa fa-calendar" aria-hidden="true"></i>Day Planner</a>
+        </li> 
+        <li class="projectLink">
+          <a href="projects.html#project-swipe-5"><i class="fas fa-user-edit"></i>Memory Cards</a>
+        </li> 
+      </ul>
     <!-- </header> -->
     <section class="contact-bar right-align" style="display:none">
 
@@ -36,21 +59,21 @@
         <div class="right-align">
 
         <div class="col" style="padding-left:0; margin-left:0">
-          <a href="https://github.com/kcbobbe"><i class="fab fa-github" ></i> GitHub</a>
+          <a target="_blank" href="https://github.com/kcbobbe"><i class="fab fa-github" ></i> GitHub</a>
         </div>
 
         <div class="col" style="padding-left:0; margin-left:1em">
-          <a class="valign-wrapper" href="https://www.linkedin.com/in/kcbobbe/">
+          <a target="_blank" href="https://www.linkedin.com/in/kcbobbe/">
             <i class="fab fa-linkedin"></i> LinkedIn
           </a>
         </div>
 
         <div class="col" style="padding-left:0; margin-left:1em">
-          <a href="https://www.linkedin.com/in/kcbobbe/"><i class="far fa-envelope"></i> kcbobbe@gmail.com</a>
+          <a href="mailto:kcbobbe@gmail.com"><i class="far fa-envelope"></i> kcbobbe@gmail.com</a>
         </div>
 
         <div class="col" style="padding-left:0; margin-left:1em">
-          <a href="assets/Bobbe_Resume_2020.pdf"><i class="fas fa-file-download"></i> Resume </a>
+          <a target="_blank" href="assets/Bobbe_Resume_2020.pdf"><i class="fas fa-file-download"></i> Resume </a>
         </div>
       </div>
 
@@ -75,6 +98,7 @@
             <div class="col">
               <div class="header" style="font-size:larger"><strong>Katie Bobbe</strong></div>
               <div>Web Developer</div>
+              <small>Chapel Hill, North Carolina</small>
             </div>
           </div>
 
@@ -99,11 +123,11 @@
 
                 <div class="row contact-more" style="display:none">
                   <div class="col" style="padding-left:0; margin-left:0">
-                    <a href="https://github.com/kcbobbe"><i class="fab fa-github"></i> GitHub</a>
+                    <a target="_blank" href="https://github.com/kcbobbe"><i class="fab fa-github"></i> GitHub</a>
                   </div>
 
                   <div class="col" style="padding-left:0; margin-left:1em">
-                    <a href="https://www.linkedin.com/in/kcbobbe/">
+                    <a target="_blank" href="https://www.linkedin.com/in/kcbobbe/">
                       <i class="fab fa-linkedin"></i> LinkedIn
                     </a>
                   </div>
@@ -123,149 +147,6 @@
               </div>
             </div>
           </main>
-
-          <!-- <div class="parallax-container">
-            <div class="parallax"><img src="https://images.unsplash.com/photo-1554976027-30fa74fd305f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2550&q=80" style="max-height: 900px"></div>
-          </div> -->
-      
-        <!-- </div> -->
-
-    <!-- <main id="projectsView" style="display:none">
-      <div class="container" style="margin-top: 2em;">
-        <div class="row" style="max-width:700px">
-          <div class="col s12 white z-depth-3" style="padding:0em 1em 1em 1em; border-radius: 3px">
-            <ul class="tabs tabs-fixed-width">
-              <li class="tab col s3"><a href="#project-swipe-1">BandiFi</a></li>
-              <li class="tab col s3"><a href="#project-swipe-2">Q-seum</a></li>
-              <li class="tab col s3"><a href="#project-swipe-3">Weather</a></li>
-              <li class="tab col s3"><a href="#project-swipe-4">Planner</a></li>
-              <li class="tab col s3"><a href="#project-swipe-5">Memory Cards</a></li>
-
-            </ul>
-            <div id="project-swipe-1" class="col s12">
-
-                  <div class="card">
-                    <div class="card-image">
-                      <img class="materialboxed" src="assets/images/bandifi.png">
-                    </div>
-                    <div class="card-content">
-                      <p>Discover events, top songs, and related artists of your favorite bands.</p>
-                      <div class="chip-holder">
-                        <div class="chip">JavaScript</div>
-                        <div class="chip">HTML</div>
-                        <div class = "chip">CSS</div>
-                        <div class = "chip">jQuery</div>
-                        <div class = "chip">Bulma</div>
-                        <div class= "chip">Bandsintown API</div>
-                        <div class = "chip">iTunes Search API</div>
-                        <div class = "chip">TasteDive API</div>
-                        <div class = "chip">Moment.js</div>
-                      </div>
-                    </div>
-                    <div class="card-action">
-                      <a href="https://github.com/kcbobbe/project1">GitHub</a>
-                      <a href="https://kcbobbe.github.io/project1">Website</a>
-                    </div>
-                  </div>
-                </div>
-
-            <div id="project-swipe-2" class="col s12">
-
-              <div class="card">
-                <div class="card-image" style="background-color:rgb(45,45,45)">
-                  <img class="materialboxed" data-caption="Q-seum" style = "width:80%; margin:auto" src="assets/images/qseum.png">
-                </div>
-                <div class="card-content">
-                  <p>A mobile-first web application that uses personalized QR codes to support a more pleasant and efficient check-in experience for museum members and visitors.</p>
-                  <div class="chip-holder">
-                    <div class="chip">JavaScript</div>
-                    <div class="chip">HTML</div>
-                    <div class = "chip">CSS</div>
-                    <div class = "chip">Bulma</div>
-                    <div class = "chip">React</div>
-                    <div class= "chip">Firebase</div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/Q-seum/qseum-frontend">GitHub</a>
-                  <a href="https://q-seum.firebaseapp.com/">Website</a>
-                </div>
-              </div>
-
-            </div>
-
-            <div id="project-swipe-3" class="col s12">
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed" src="assets/images/weather.png">
-                </div>
-                <div class="card-content">
-                  <p>Check current weather conditions and 5-day weather forecast by location using a simple, clean interface.</p>
-                  <div class="chip-holder">
-                    <div class="chip">JavaScript</div>
-                    <div class="chip">HTML</div>
-                    <div class = "chip">CSS</div>
-                    <div class = "chip">Bulma</div>
-                    <div class = "chip">OpenWeather API</div>
-                    <div class = "chip">Geolocation API</div>
-                    <div class = "chip">Moment.js</div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/kcbobbe/weather-dashboard">GitHub</a>
-                  <a href="https://kcbobbe.github.io/weather-dashboard/">Website</a>
-                </div>
-              </div>
-            </div>
-
-            <div id="project-swipe-4" class="col s12">
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed" src="assets/images/planner.png">
-                </div>
-                <div class="card-content">
-                  <p>Keep track of your work day with this daily planner.</p>
-                  <div class="chip-holder">
-                    <div class="chip">JavaScript</div>
-                    <div class="chip">HTML</div>
-                    <div class ="chip">CSS</div>
-                    <div class = "chip">jQuery</div>
-                    <div class = "chip">Bootstrap</div>
-                    <div class = "chip">Moment.js</div>
-                  </div>
-                </div>
-                <div class="card-action">
-                  <a href="https://github.com/kcbobbe/day-planner">GitHub</a>
-                  <a href="https://kcbobbe.github.io/day-planner/">Website</a>
-                </div>
-              </div>
-            </div>
-
-            <div id="project-swipe-5" class="col s12">
-              <div class="card">
-                <div class="card-image">
-                  <img class="materialboxed" src="assets/images/memory-cards.png">
-                </div>
-                <div class="card-content">
-                  <p>Share and discuss memories and stories about your favorite video games</p>
-                  <div class="chip-holder">
-                    <div class="chip">JavaScript</div>
-                    <div class="chip">HTML</div>
-                    <div class ="chip">CSS</div>
-                    <div class = "chip">Firebase</div>
-                    <div class = "chip">React</div>
-                  </div>
-                  <div class="card-action">
-                    <a href="https://github.com/kcbobbe/memory-cards">GitHub</a>
-                    <a href="https://memory-cards-5a4ad.firebaseapp.com/">Website</a>
-                  </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>
-    </main> -->
     
     <footer class="page-footer">
       <div class="container">
@@ -274,44 +155,38 @@
             <h5 class="white-text">Contact</h5>
             <div class="row">
               <div class="col">
-                <a href="https://github.com/kcbobbe"><i class="fab fa-github" style="font-size:28px"></i></a>
+                <a target="_blank" href="https://github.com/kcbobbe"><i class="fab fa-github" style="font-size:28px"></i></a>
               </div>
               <div class="col">
-                <a href="https://www.linkedin.com/in/kcbobbe/">
+                <a target= "_blank" href="https://www.linkedin.com/in/kcbobbe/">
                   <i class="fab fa-linkedin" style="font-size:28px"></i>
                 </a>
               </div>
               <div class="col">
-                <a href="https://www.linkedin.com/in/kcbobbe/">
+                <a href="mailto:kcbobbe@gmail.com">
                   <i class="far fa-envelope" style="font-size:28px"></i>
                 </a>
               </div>
-              <!-- <div class="col">
-                <div class="icons-preview">
-                  <i class="material-icons md-48" style="font-size:48px">assignment_returned</i>
-                  <div class="icon-caption">Resume</div>
-                </div>
-              </div> -->
+  
             </div>
-            <!-- <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p> -->
           </div>
           <div class="col s6">
             <h5 class="white-text">Projects</h5>
             <ul class="projectLinks">
               <li class="projectLink">
-                <a href="projects.html/#project-swipe-1">BandiFi</a>
+                <a href="projects.html#project-swipe-1">BandiFi</a>
               </li>
               <li class="projectLink">
-                <a href="projects.html/#project-swipe-2">Q-seum</a>
+                <a href="projects.html#project-swipe-2">Weather Dashboard</a>
+              </li> 
+              <li class="projectLink">
+                <a href="projects.html#project-swipe-3">Q-seum</a>
               </li>
               <li class="projectLink">
-                <a href="projects.html/#project-swipe-3">Weather Dashboard</a>
+                <a href="projects.html#project-swipe-4">Day Planner</a>
               </li> 
               <li class="projectLink">
-                <a href="projects.html/#project-swipe-4">Day Planner</a>
-              </li> 
-              <li class="projectLink">
-                <a href="projects.html/#project-swipe-5">Memory Cards</a>
+                <a href="projects.html#project-swipe-5">Memory Cards</a>
               </li> 
             </ul>
           </div>
