@@ -1,5 +1,5 @@
 # Katie Bobbe's Portfolio
-https://kcbobbe.github.io/project1/
+https://kcbobbe.github.io
 
 ## Description
 
