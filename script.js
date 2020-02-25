@@ -9,6 +9,10 @@ document.addEventListener('DOMContentLoaded', function() {
   var tabElems = document.querySelectorAll('.tabs')
   var instances = M.Tabs.init(tabElems);
 
+  var navElems = document.querySelectorAll('.sidenav')
+  var instances = M.Sidenav.init(navElems);
+
+
   // var instance = M.Parallax.getInstance(elem);
   // var instance = M.Tabs.getInstance(tabElems);
 
@@ -31,6 +35,8 @@ $(".contact-nav").on('click', function(e){
     $(".contact-bar").css('display', '');
   }
 })
+
+
 
 // $(".contactButton").on('click', function(e){
 //   $("#moreContact").css('display','')
