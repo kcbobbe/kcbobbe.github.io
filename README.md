@@ -1,5 +1,5 @@
-# BandiFi
-https://kcbobbe.github.io/project1/
+# Katie Bobbe's Portfolio
+https://kcbobbe.github.io
 
 ## Description
 
@@ -37,6 +37,9 @@ This is my portfolio highlighting some of my work as a developer.
 * JavaScript
 * jQuery
 * Materialize CSS Framework
+
+## Credits
+https://cssgradient.io/gradient-backgrounds/
 
 ## License
 MIT License
