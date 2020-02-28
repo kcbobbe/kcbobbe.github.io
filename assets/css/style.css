@@ -85,3 +85,7 @@ body {
 .contact-button:hover{
   cursor: pointer;
 }
+
+.sidenav i {
+margin:0!important;
+}
