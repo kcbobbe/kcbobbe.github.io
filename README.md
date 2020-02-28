@@ -38,9 +38,6 @@ This is my portfolio highlighting some of my work as a developer.
 * jQuery
 * Materialize CSS Framework
 
-## Credits
-* Photo by Vishnu R Nair from Pexels
-
 ## License
 MIT License
 
